@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">Admin Panel</h2>
+        <ul class="menu">
+            <li>Dashboard</li>
+            <li>Users</li>
+            <li>Settings</li>
+            <li>Reports</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="header">
+            <h1>Dashboard</h1>
+            <button id="themeToggle">🌙 Dark Mode</button>
+        </header>
+
+        <!-- INPUT SECTION -->
+        <section class="inputs">
+            <input type="number" id="studentsInput" placeholder="Enter Total Students">
+            <input type="number" id="teachersInput" placeholder="Enter Teachers">
+            <input type="number" id="classesInput" placeholder="Enter Classes">
+        </section>
+
+        <!-- CARDS -->
+        <section class="cards">
+            <div class="card">
+                <h3>Total Students</h3>
+                <p id="studentsCount">120</p>
+            </div>
+            <div class="card">
+                <h3>Teachers</h3>
+                <p id="teachersCount">15</p>
+            </div>
+            <div class="card">
+                <h3>Classes</h3>
+                <p id="classesCount">8</p>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
