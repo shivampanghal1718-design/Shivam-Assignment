@@ -19,4 +19,4 @@ It includes a sidebar, dashboard cards, and a dark/light mode toggle.
 Netlify Link: (shivam307.netlify.app)
 
 ## 📂 GitHub Repository
-GitHub Link: (https://github.com/Vaibhav8895/vaibhav-assignment/tree/main)
+GitHub Link: (https://github.com/shivampanghal1718-design/Shivam-Assignment)
